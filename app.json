@@ -4,11 +4,7 @@
     "slug": "COVID-19",
     "privacy": "public",
     "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -21,9 +17,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "cv-mobile-270523",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAuwl7_ZX-a-0b3INjthFB3TgnYGUEYMbM"
+        }
+      }
+    },
     "ios": {
       "supportsTablet": true
     }
